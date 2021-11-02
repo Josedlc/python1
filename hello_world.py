@@ -22,4 +22,7 @@ print [flo + flo2]
 for x in range(1, 100, 2):
   print(x)
 
-
+num = 1
+for n in range (100): 
+    print(num)
+    num += 2
