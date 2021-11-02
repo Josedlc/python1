@@ -17,7 +17,7 @@ print [carac + carac2]
 
 print [flo + flo2]
 
-print [bol + bol2 + bol3]
+
 
 for x in range(1, 100, 2):
   print(x)
