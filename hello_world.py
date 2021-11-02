@@ -26,3 +26,13 @@ num = 1
 for n in range (100): 
     print(num)
     num += 2
+
+  n=100
+  cant_divisores = 0
+    i = 1
+    while (i <= n):
+        if n % i == 0:
+            cant_divisores+=1
+        i+=1
+     if cant_divisores==2:
+        print(i)
